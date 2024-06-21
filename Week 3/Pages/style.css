@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fefefe;
+    padding: 10px 10px 10px 10px; /* Its a margin inside an element */
+ }
+
+ .nav{
+   display: flex; /* This automically align items to arrange horizontally or vertically*/
+   justify-content: space-between; /*ensures spaces between items in the container*/
+   align-items: center; /* This align all items to horizontally*/
+   margin: -5px; /* Its a padding outside an element */
+   background-color: #fafafa;
+   padding: 5px 50px 0px 10px;
+ }
+
+ .nav-links {
+   display: flex;
+   justify-content: space-between;
+   gap: 20px;
+   align-items: center;
+ }
+
+ .nav-links li {
+  list-style: none;
+  margin: 0 10px;
+  font-size: 20px;
+ }
+
+ .nav-links a {
+  text-decoration: none;
+  color: #787a7c;
+ }
+
+ .nav-links li a:hover{
+  text-decoration: none;
+  color: #6087fd;
+ }
+
+ .btn {
+  background-color: #489b00;
+  padding: 15px 30px;
+  border-radius: 5px;
+ }
+
+ .btn a {
+  text-decoration: none;
+  color: #fefefe;
+ }
+
+ .main {
+  margin: 0px 30px;
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .main-content {
+  margin: 70px 0px;
+  padding-top: 10px;
+  margin-top: 5px;
+ }
+
+ .main-content h1 {
+  font-size: 50px;
+  color: #163148;
+  margin: 30px;
+  padding: 20px;
+ }
+
+ .main-content span {
+  color: #489b00;
+ }
+
+ .main-content p {
+  font-size: 22px;
+  font-weight: 500;
+  margin: 30px;
+  padding: 20px;
+  margin-top: -10px;
+ }
+
+ .main-btn {
+  padding: 0px;
+  margin: 20px;
+  display: inline-block;
+  width: 75%;
+ }
+ .main-btn p{
+  background-color: #489b00;
+  padding: 15px 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fefefe;
+  text-align: center;
+ }
+
+ .divider {
+  border: none;
+  height: 1.4px;
+  background-color: #dad4d4;
+  margin-bottom: 100px;
+ }
+
+ .sponsors {
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+ }
+
+ .item1 {
+  margin: auto;
+  max-width: 750px;
+  flex-direction: column;
+ }
+
+ .item1 h1{
+  display: flex;
+  color: #2d1e49;
+  font-size: 30px;
+  padding: 10px 200px;
+  align-items: center;
+ }
+
+ .item1 p{
+  font-size: 20px;
+  padding: 10px;
+  justify-content: center;
+ }
+
+ .item2 {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  gap: 150px;
+ }
+
+ .grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+ }
+
+ 
+
+ 
